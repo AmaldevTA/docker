@@ -1,0 +1,20 @@
+https://github.com/docker/toolbox/releases
+
+docker images
+
+docker pull ubuntu
+docker run -it -d ubuntu
+docker ps -a  //shows all container
+
+docker exec -it 'container-instance' bash
+docker stop 'container-instance'
+docker rm 'container-instance'
+docker rmi 'container-instance'
+
+docker commit 'container-instance' 'new-name'
+docker push 'new-name'
+
+docker login
+
+docker-compose build
+docker-compose up
